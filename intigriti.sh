@@ -22,7 +22,6 @@ curl -s "https://app.intigriti.com/profile/$1" | grep "Twitter" | cut -d'>' -f30
 #Rank()
 
 curl -s "https://app.intigriti.com/profile/$1" | grep "Rank"| awk -F# '{print "[-] My Rank in Intigriti.com: "  $2}' | cut -d'<' -f1
-#}
 
 #Streak()
 
