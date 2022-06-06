@@ -1,6 +1,6 @@
 #!/bin/bash
-#by https://twitter.com/az7rb
 
+#by https://twitter.com/az7rb
 
 if [ -z "$1" ]; then
   echo "[!] Usage: ./$0 username"
@@ -38,5 +38,5 @@ curl -s "https://app.intigriti.com/profile/$1" | grep "pts" | cut -d'>' -f179 | 
 
 curl -s "https://app.intigriti.com/profile/$1" | grep "pts" | cut -d'>' -f169 | cut -d'<' -f1 | awk '{print "[-] My REP. ALL TIME in Intigriti.com: "  $0}'
 
-echo "[+] done..."
 echo ""
+echo "[+] done..."
