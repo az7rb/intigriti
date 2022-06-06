@@ -1,8 +1,10 @@
 #!/bin/bash
+#by https://twitter.com/az7rb
 
-echo -e "$0 by @az7rb\n"
+
 if [ -z "$1" ]; then
   echo "[!] Usage: ./$0 username"
+  echo ""
   exit 1
 fi
 
