@@ -34,7 +34,6 @@ curl -s "https://app.intigriti.com/profile/$1" | grep "streak" | cut -d'>' -f193
  
 curl -s "https://app.intigriti.com/profile/$1" | grep "pts" | cut -d'>' -f179 | cut -d'<' -f1 | awk '{print "[-] My REP. 90 DAYS in Intigriti.com: "  $0}'
 
-
 #all()
 
 curl -s "https://app.intigriti.com/profile/$1" | grep "pts" | cut -d'>' -f169 | cut -d'<' -f1 | awk '{print "[-] My REP. ALL TIME in Intigriti.com: "  $0}'
