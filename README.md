@@ -1,5 +1,7 @@
 # intigriti
 
+![alt text](https://raw.githubusercontent.com/az7rb/intigriti/main/intigriti.png)
+
 Usage is pretty simple.
 
 Step 1:
